@@ -23,7 +23,7 @@ int main()
     // }
 
     int row, col;
-    
+
     // for(row = 0;row<4;row++){
     //     for(col = 0;col<5;col++){
     //         cout<<"10 ";
@@ -45,9 +45,6 @@ int main()
     //     cout<<"\n";
     // }
 
-
-
-
     // for (row = 0; row < 5; row++)
     // {
     //     for (col = 5; col > 0; col--)
@@ -57,8 +54,6 @@ int main()
     //     cout<<"\n";
     // }
 
-
-
     // for(row = 1;row < 6;row++){
     //     for(col = 1;col <= 5;col++){
     //         cout<<col*col<<" ";
@@ -66,14 +61,18 @@ int main()
     //     cout<<"\n";
     //   }
 
+    // char ch = 'a' + 1;
+    // cout<<ch<<endl;
 
+    // cout<<"Hello World..."<<endl;
+    char ch = 'a';
+    for(row = 1;row < 6; row++){
+        for(col = 1;col < 6;col++){
+        ch =  ch + (col - 1);
+        cout<<ch<<" ";
+        }
+        cout<<"\n";
+    }
 
-
-    char ch = 'a' + 5;
-    cout<<ch<<endl;
-
-
-
-    
     return 0;
 }
